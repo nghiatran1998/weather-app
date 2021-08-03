@@ -23,7 +23,6 @@ function App() {
       getWeatherByCity(citySelected)
         .then(async (res) => {
           const data = await res.data;
-          console.log(data);
           setWeatherInfo(data);
         })
         .catch((err) => console.log(err));
