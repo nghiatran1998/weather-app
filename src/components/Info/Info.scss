@@ -1,0 +1,52 @@
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+
+    .city-name {
+        font-size: 1.5rem;
+        margin-bottom: 3px;
+    }
+
+    .weather-state {
+        font-size: 0.8rem;
+    }
+
+    .weather-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .temperature {
+        font-size: 5rem;
+        font-weight: lighter;
+        line-height: 1;
+        position: relative;
+        margin-bottom: 10px;
+
+        &::after {
+            content: "o";
+            font-size: 2.5rem;
+            position: absolute;
+        }
+    }
+
+    .feel-like {
+        font-size: 1rem;
+        position: relative;
+
+        &::after {
+            content: "o";
+            font-size: 0.6rem;
+            position: absolute;
+        }
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .info-wrapper {
+        min-height: 60vh;
+    }
+}

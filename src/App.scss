@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: "STIX Two Text", serif;
+    font-size: 1rem;
+    background: linear-gradient(145deg, #2980b9, #6dd5fa);
+    color: white;
+}
+
+@media only screen and (max-width: 799px) {
+    .container {
+        min-height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .container {
+        width: 400px;
+        margin: 50px auto;
+        border-radius: 5px;
+    }
+}

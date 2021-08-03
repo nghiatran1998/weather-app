@@ -1,0 +1,23 @@
+.search-bar {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+
+    #search-input {
+        border: 0;
+        outline: 0;
+        color: white;
+        background: transparent;
+        padding: 3px 3px 3px 20px;
+
+        height: 20px;
+        &::placeholder {
+            color: rgb(206, 206, 206);
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.additional-section {
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 1rem;
+
+    .row {
+        display: flex;
+        margin-bottom: 5px;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+            label {
+                font-weight: bold;
+            }
+        }
+    }
+}
